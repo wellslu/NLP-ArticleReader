@@ -38,7 +38,7 @@ def index():
 def set_page(i=0):
     global num
     i = str(i)
-    print(i)
+    
     if i == '0':
         num = 0
         return '改變網址的數字 0 即可跳至您想閱讀的篇數'
